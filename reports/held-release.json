@@ -1,0 +1,19 @@
+{
+  "gate": "hold",
+  "audit": [
+    [
+      1,
+      "2026-11-24 10:42:58",
+      "registered",
+      "90e153108ccb36ca0a5850225827aa14d7bb0f9bea2fc1a7323e97db9cc14fb7",
+      null
+    ],
+    [
+      2,
+      "2026-11-24 10:42:58",
+      "testing",
+      "90e153108ccb36ca0a5850225827aa14d7bb0f9bea2fc1a7323e97db9cc14fb7",
+      null
+    ]
+  ]
+}

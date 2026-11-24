@@ -1,0 +1,13 @@
+{
+  "run_id": "50c530c803534a29a5e4d10d52361781",
+  "model": "thermal-lab-choice",
+  "version": 1,
+  "alias": "candidate",
+  "gate": "hold",
+  "registry_backend": "local SQLite",
+  "metrics": {
+    "base_accuracy": 0.16666666666666666,
+    "sft_accuracy": 0.2708333333333333,
+    "dpo_accuracy": 0.2916666666666667
+  }
+}

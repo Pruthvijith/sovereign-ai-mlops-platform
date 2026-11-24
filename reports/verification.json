@@ -1,0 +1,11 @@
+{
+  "project": "sovereign-ai-mlops-platform",
+  "pytest_passed": 3,
+  "source_statements": 141,
+  "missed_statements": 21,
+  "statement_coverage": 85.11,
+  "coverage_scope": "lifecycle",
+  "mypy": "Success: no issues found in 3 source files",
+  "ruff": "check and format passed",
+  "ci": "configured; hosted run unverified"
+}
