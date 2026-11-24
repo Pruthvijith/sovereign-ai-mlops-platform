@@ -1,0 +1,5 @@
+mlflow-skinny==3.10.1
+mlflow-tracing==3.10.1
+sqlalchemy==2.1.9
+alembic==1.20.1
+sqlparse==0.6.1

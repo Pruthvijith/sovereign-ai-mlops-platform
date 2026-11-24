@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sovereign-ai-mlops-platform"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["lifecycle*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true
+check_untyped_defs = true
+follow_imports = "silent"
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[[tool.mypy.overrides]]
+module = ["torch.*", "transformers.*", "peft.*", "trl.*", "datasets.*", "sklearn.*", "scipy.*", "numpy.*", "safetensors.*", "PIL.*", "pydantic.*", "fastapi.*"]
+follow_imports = "skip"

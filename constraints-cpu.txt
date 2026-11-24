@@ -1,0 +1,17 @@
+# Linux x86_64, Python 3.12, CPU Torch selected before installing other dependencies.
+annotated-types==0.8.0
+coverage==7.17.5
+iniconfig==2.3.1
+mypy==1.18.2
+mypy-extensions==1.2.0
+packaging==26.3
+pathspec==1.1.1
+pluggy==1.7.0
+pydantic==2.13.4
+pydantic-core==2.46.4
+pygments==2.21.0
+pytest==9.0.3
+pytest-cov==7.0.0
+ruff==0.14.1
+typing-extensions==4.16.0
+typing-inspection==0.4.3
